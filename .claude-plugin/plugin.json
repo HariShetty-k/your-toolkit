@@ -1,0 +1,10 @@
+{
+  "name": "your-toolkit",
+  "description": "Skills for setting up a new project's product, design, and user journey docs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "HariShetty-k"
+  },
+  "repository": "https://github.com/HariShetty-k/your-toolkit",
+  "license": "MIT"
+}

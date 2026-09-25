@@ -1,0 +1,16 @@
+{
+  "name": "your-toolkit",
+  "owner": {
+    "name": "HariShetty-k"
+  },
+  "metadata": {
+    "description": "Skills for setting up a new project's product, design, and user journey docs."
+  },
+  "plugins": [
+    {
+      "name": "your-toolkit",
+      "source": "./",
+      "description": "Skills for setting up a new project's product, design, and user journey docs."
+    }
+  ]
+}
