@@ -4,13 +4,21 @@
     "name": "HariShetty-k"
   },
   "metadata": {
-    "description": "Skills for setting up a new project's product, design, and user journey docs."
+    "description": "Skills for setting up a new project's product docs, design system, animation, and UI components."
   },
   "plugins": [
     {
       "name": "your-toolkit",
       "source": "./",
-      "description": "Skills for setting up a new project's product, design, and user journey docs."
+      "description": "Skills for product, design, motion, and user journey docs."
+    },
+    {
+      "name": "21st",
+      "source": {
+        "source": "github",
+        "repo": "21st-dev/magic-mcp"
+      },
+      "description": "Official 21st.dev plugin: search and install React/Tailwind UI components, and generate UI (needs a free API key from https://21st.dev/mcp)."
     }
   ]
 }

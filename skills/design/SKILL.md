@@ -26,6 +26,11 @@ Put a `DESIGN.md` at the project root so all UI work stays visually consistent. 
 
 If the user wants their own design instead of a brand's, write `DESIGN.md` from scratch with the 9 sections listed in `../../design.md` under "What's Inside Each DESIGN.md". Give real hex values, font names, and sizes, not vague descriptions.
 
-## Using DESIGN.md
+## Building UI
 
-When building any UI in a project that has a `DESIGN.md`, read it first and use its colors, type scale, spacing, and component styles exactly. Follow its Do's and Don'ts.
+When building any UI in a project that has a `DESIGN.md`, read it first. It is the source of truth for colors, type scale, spacing, and component styles. Follow its Do's and Don'ts.
+
+Use these tools when they fit the task, and always restyle what they produce to match `DESIGN.md`:
+
+- **Ready-made components and sections** (heroes, navbars, pricing tables, cards, containers, forms): if the 21st.dev tools (`search`, `get_component`) are available, search there before writing a component from scratch. Swap its colors, fonts, radii, and shadows for the `DESIGN.md` values after installing it. If the tools aren't available, tell the user they can install the `21st` plugin from this marketplace, then build the component by hand.
+- **Animation** (transitions, hover effects, scroll reveals, enter/exit): use the `motion` skill.
