@@ -1,6 +1,6 @@
-# Design
+# Design Catalog
 
-Design references for AI agents. Source: [VoltAgent/awesome-design-md](https://github.com/voltagent/awesome-design-md) (MIT License).
+Designs you can copy into a project as `DESIGN.md`. The `design` skill picks from this list. Source: [VoltAgent/awesome-design-md](https://github.com/voltagent/awesome-design-md) (MIT License).
 
 ## What is DESIGN.md?
 

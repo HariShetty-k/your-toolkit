@@ -1,6 +1,6 @@
 # User Journey
 
-How users move through the product, from first contact to long-term use. Use this with `product.md` (who the users are) and `design.md` (how it should look).
+How users move through the product, from first contact to long-term use. Use this with `PRODUCT.md` (who the users are) and `DESIGN.md` (how it should look).
 
 ## Persona
 

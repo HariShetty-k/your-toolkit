@@ -17,7 +17,7 @@ Write `ARCHITECTURE.md` at the project root so every session knows how the syste
    - Schema, migration, or model files for the data model.
    - Routes, handlers, and config for key flows, environments, and deployment.
 4. For a new project with no code yet, propose a stack that fits `PRODUCT.md`. Prefer boring, well-supported choices. Give the user 1–2 options with trade-offs and let them decide before writing it down.
-5. Fill in the template at `../../architecture.md` (relative to this skill's directory). Keep every heading. Write "TBD" for anything unknown rather than inventing it, and delete sections that truly don't apply.
+5. Fill in the template at `../../ARCHITECTURE.md` (relative to this skill's directory). Keep every heading. Write "TBD" for anything unknown rather than inventing it, and delete sections that truly don't apply.
 6. Diagrams must be valid Mermaid that reflects the real system, not the template's example.
 7. Save as `ARCHITECTURE.md` at the project root. In your reply, list the decisions you recorded and any open questions.
 

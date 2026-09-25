@@ -14,7 +14,7 @@ Write `PRODUCT.md` at the project root so every later task has shared product co
    - What the user has said in this conversation.
    - The codebase: README, package manifests, routes, and existing docs.
 3. Ask the user only for what you still can't infer: usually the problem, target users, and goals. Ask in one short batch, not one question at a time.
-4. Fill in the template at `../../product.md` (relative to this skill's directory). Keep every section heading. Write "TBD" for anything still unknown rather than inventing it.
+4. Fill in the template at `../../PRODUCT.md` (relative to this skill's directory). Keep every section heading. Write "TBD" for anything still unknown rather than inventing it.
 5. Save the result as `PRODUCT.md` at the project root and summarize what's still TBD.
 
 ## Guidelines

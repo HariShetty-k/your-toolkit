@@ -1,0 +1,20 @@
+{
+  "extraKnownMarketplaces": {
+    "your-toolkit": {
+      "source": {
+        "source": "github",
+        "repo": "HariShetty-k/your-toolkit"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "your-toolkit@your-toolkit": true,
+    "21st@your-toolkit": true,
+    "superpowers@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true
+  }
+}

@@ -11,7 +11,7 @@ Put a `DESIGN.md` at the project root so all UI work stays visually consistent. 
 
 1. Check whether `DESIGN.md` already exists at the project root. If it does, ask before replacing it.
 2. Pick a design:
-   - If the user named a brand or style, find it in the collection list in `../../design.md` (relative to this skill's directory).
+   - If the user named a brand or style, find it in the collection list in `../../templates/design-catalog.md` (relative to this skill's directory).
    - Otherwise, read `PRODUCT.md` if it exists and suggest 2–3 designs from that list that fit the product and audience, with one line each on why. Let the user choose.
 3. Get the slug from the design's link: `https://getdesign.md/<slug>/design-md`. For example, Linear's slug is `linear.app` and Claude's is `claude`.
 4. Download the file:
@@ -24,7 +24,7 @@ Put a `DESIGN.md` at the project root so all UI work stays visually consistent. 
 
 ## Custom designs
 
-If the user wants their own design instead of a brand's, write `DESIGN.md` from scratch with the 9 sections listed in `../../design.md` under "What's Inside Each DESIGN.md". Give real hex values, font names, and sizes, not vague descriptions.
+If the user wants their own design instead of a brand's, write `DESIGN.md` from scratch with the 9 sections listed in `../../templates/design-catalog.md` under "What's Inside Each DESIGN.md". Give real hex values, font names, and sizes, not vague descriptions.
 
 ## Building UI
 

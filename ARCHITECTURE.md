@@ -1,6 +1,6 @@
 # Architecture
 
-How the system is built: the big pieces, where they live, how they talk, and the rules that keep them consistent. Use this with `product.md` (what we're building) and `design.md` (how it looks).
+How the system is built: the big pieces, where they live, how they talk, and the rules that keep them consistent. Use this with `PRODUCT.md` (what we're building) and `DESIGN.md` (how it looks).
 
 Keep this short and stable. Describe things that rarely change. Name important files, modules, and types, but don't link to exact lines, since those go stale.
 
