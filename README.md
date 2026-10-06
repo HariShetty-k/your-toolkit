@@ -5,14 +5,14 @@ A starter kit for AI-assisted projects in two parts:
 1. **A project template.** The docs every project needs (product, architecture,
    user journey, specs) wired up so Claude Code and other AI coding tools read
    them automatically.
-2. **A Claude Code plugin.** Six skills that fill those docs in, plus a design
-   catalog and animation guidance for building the UI.
+2. **A Claude Code plugin.** Agent skills that fill those docs in, and design
+   skills (a design-system catalog, animation, UI components) for building the UI.
 
 ## Contents
 
 - [Quick start](#quick-start)
 - [What's in the repo](#whats-in-the-repo)
-- [Skills](#skills)
+- [Skills](#skills): [agent skills](#agent-skills-the-project-docs) · [design skills](#design-skills-how-it-looks-and-moves)
 - [Recommended plugins](#recommended-plugins)
 - [Suggested order for a new project](#suggested-order-for-a-new-project)
 - [Updating the toolkit](#updating-the-toolkit)
@@ -62,12 +62,12 @@ so everything installs from one place. It needs a free API key from
 │   ├── plugin.json        # Plugin name, version, author
 │   └── marketplace.json   # Lists your-toolkit and the 21st.dev plugin
 ├── skills/
-│   ├── product/           # → PRODUCT.md
-│   ├── user-journey/      # → USER-JOURNEY.md
-│   ├── architecture/      # → ARCHITECTURE.md
-│   ├── design/            # → DESIGN.md
-│   ├── spec/              # → specs/NNN-feature/
-│   └── motion/            # Motion animation patterns
+│   ├── product/           # agent skill  → PRODUCT.md
+│   ├── user-journey/      # agent skill  → USER-JOURNEY.md
+│   ├── architecture/      # agent skill  → ARCHITECTURE.md
+│   ├── spec/              # agent skill  → specs/NNN-feature/
+│   ├── design/            # design skill → DESIGN.md
+│   └── motion/            # design skill → Motion animation patterns
 └── templates/
     └── design-catalog.md  # Brand design systems the design skill chooses from
 ```
@@ -79,18 +79,28 @@ harmless; delete `.claude-plugin/`, `skills/` and `templates/` if you like.
 
 ## Skills
 
-| Skill | What it does |
-|-------|--------------|
-| `/your-toolkit:product` | Fills in `PRODUCT.md` |
-| `/your-toolkit:user-journey` | Fills in `USER-JOURNEY.md` |
-| `/your-toolkit:architecture` | Fills in `ARCHITECTURE.md` from the code, or proposes a stack for a new project |
-| `/your-toolkit:design` | Adds a `DESIGN.md` from the [awesome-design-md](https://github.com/voltagent/awesome-design-md) collection, or writes a custom one. When building UI, it uses 21st.dev components and the `motion` skill, restyled to match `DESIGN.md` |
-| `/your-toolkit:spec` | Creates `specs/NNN-feature/` with a spec, plan, and task list |
-| `/your-toolkit:motion` | Adds animation with Motion (formerly Framer Motion), matched to `DESIGN.md` |
-| `/21st:21st-ui` | From the `21st` plugin: finds and installs 21st.dev components, and generates UI |
-
 You don't have to type the commands. Each skill also runs when you ask for what
 it does, for example "write a spec for signup" or "make it look like Linear".
+
+### Agent skills: the project docs
+
+These write the docs that every AI coding session reads first, so agents know
+what you're building and how.
+
+| Skill | What it does |
+|-------|--------------|
+| `/your-toolkit:product` | Fills in `PRODUCT.md`: what it is, who it's for, goals, features, success metrics |
+| `/your-toolkit:user-journey` | Fills in `USER-JOURNEY.md`: personas, journey stages, key flows |
+| `/your-toolkit:architecture` | Fills in `ARCHITECTURE.md` from the code, or proposes a stack for a new project |
+| `/your-toolkit:spec` | Creates `specs/NNN-feature/` with a spec, plan, and task list before coding |
+
+### Design skills: how it looks and moves
+
+| Skill | What it does |
+|-------|--------------|
+| `/your-toolkit:design` | Adds a `DESIGN.md` from the [design catalog](templates/design-catalog.md) (brand styles from [awesome-design-md](https://github.com/voltagent/awesome-design-md)), or writes a custom one. When building UI, it uses 21st.dev components and the `motion` skill, restyled to match `DESIGN.md` |
+| `/your-toolkit:motion` | Adds animation with Motion (formerly Framer Motion), matched to `DESIGN.md` |
+| `/21st:21st-ui` | From the `21st` plugin: finds and installs 21st.dev components, and generates UI |
 
 ## Recommended plugins
 
