@@ -11,11 +11,6 @@ Designs you can copy into a project as `DESIGN.md`. The `design` skill picks fro
 | `AGENTS.md` | Coding agents | How to build the project |
 | `DESIGN.md` | Design agents | How the project should look and feel |
 
-## How to Use
-
-1. Pick a design from the collection below and copy its `DESIGN.md` into your project root.
-2. Tell your AI agent: "Build me a page that looks like this, following DESIGN.md."
-
 ## What's Inside Each DESIGN.md
 
 Every file follows the [Stitch DESIGN.md format](https://stitch.withgoogle.com/docs/design-md/specification/) with extended sections:
@@ -139,4 +134,30 @@ A Saturday series — DESIGN.md files extracted from the web of the 1990s. Drop 
 - [**Dell (1996)**](https://getdesign.md/dell-1996/design-md) - Catalog-era enterprise web. Literal black page frame, flat color-block "ribbon cards", chunky Helvetica-Black titles over Times Roman body, and hand-cut GIF stickers (NEW! bursts, award seals, beveled product photos).
 - [**Nintendo.com (2001)**](https://getdesign.md/nintendo-2001/design-md) - Y2K "console chrome" web. Brushed-periwinkle beveled metal panels, a halftone-dotted carbon nav glowing amber, outlined Arial-Black box-art wordmarks over circuit-board hero fields, and a pixel Mario welcome bubble.
 
+---
 
+## License notice
+
+The list above is adapted from [VoltAgent/awesome-design-md](https://github.com/voltagent/awesome-design-md):
+
+> MIT License
+>
+> Copyright (c) 2026 VoltAgent
+>
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
+>
+> The above copyright notice and this permission notice shall be included in all
+> copies or substantial portions of the Software.
+>
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+> SOFTWARE.

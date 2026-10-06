@@ -2,6 +2,14 @@
 
 Versions of the `your-toolkit` plugin (`.claude-plugin/plugin.json`).
 
+## 1.4.1 — 2026-10-06
+
+- Removed the toolkit's own license; the repo is all rights reserved.
+- Kept VoltAgent's MIT notice with the design catalog, as their license requires.
+- Starter settings no longer enable `frontend-design`: it duplicated the
+  `design` skill and pushed its own styling over `DESIGN.md`.
+- Removed the catalog's manual "How to Use" steps, which repeated the `design` skill.
+
 ## 1.4.0 — 2026-10-06
 
 - New `setup` skill: copies the starter files into any new or existing repo,
@@ -9,7 +17,7 @@ Versions of the `your-toolkit` plugin (`.claude-plugin/plugin.json`).
 - Starter files moved from the repo root to `templates/project/`, so the root
   only holds the toolkit's own files. The GitHub "Use this template" flow is
   replaced by the `setup` skill.
-- Added `LICENSE` (MIT), this changelog, and maintainer notes in `AGENTS.md`.
+- Added this changelog and maintainer notes in `AGENTS.md`.
 - README reorganized: agent skills and design skills, quick start, repo layout.
 
 ## 1.3.0 — 2026-09-25

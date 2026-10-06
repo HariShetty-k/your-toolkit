@@ -1,10 +1,9 @@
 {
   "name": "your-toolkit",
   "description": "Agent skills (setup, product, user journey, architecture, spec) and design skills (design system, motion) for starting and documenting projects.",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "author": {
     "name": "HariShetty-k"
   },
-  "repository": "https://github.com/HariShetty-k/your-toolkit",
-  "license": "MIT"
+  "repository": "https://github.com/HariShetty-k/your-toolkit"
 }

@@ -12,7 +12,6 @@
 <br/><br/>
 
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757)](https://code.claude.com/docs/en/plugins)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
 
@@ -100,7 +99,6 @@ and these from Anthropic's official marketplace. Remove any you don't want.
 | `code-review` | Multi-agent pull request review |
 | `commit-commands` | Commit, push, and open a pull request |
 | `security-guidance` | Warns about risky code as it's written |
-| `frontend-design` | Anthropic's skill for polished, distinctive UI |
 | `claude-md-management` | Keeps `CLAUDE.md` accurate as the project changes |
 
 ## 📁 Repository layout
@@ -122,13 +120,13 @@ your-toolkit/
 │   ├── project/             # The starter files setup copies
 │   └── design-catalog.md    # Brand design systems the design skill chooses from
 ├── AGENTS.md                # How to maintain this toolkit
-├── CHANGELOG.md
-└── LICENSE
+└── CHANGELOG.md
 ```
 
 To add or change a skill, see [AGENTS.md](AGENTS.md).
 
-## License
+## Credits
 
-[MIT](LICENSE). The design catalog is adapted from
-[VoltAgent/awesome-design-md](https://github.com/voltagent/awesome-design-md), also MIT.
+The [design catalog](templates/design-catalog.md) is adapted from
+[VoltAgent/awesome-design-md](https://github.com/voltagent/awesome-design-md)
+(MIT License, © 2026 VoltAgent); its license notice is kept in that file.

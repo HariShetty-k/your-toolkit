@@ -36,5 +36,5 @@ Copy the starter files from `../../templates/project/` (relative to this skill's
 
 ## Guidelines
 
-- Only copy the files listed above. Never copy the toolkit's own README, LICENSE, `skills/`, `.claude-plugin/` or `templates/` into the project.
+- Only copy the files listed above. Never copy the toolkit's own README, CHANGELOG, `skills/`, `.claude-plugin/` or `templates/` into the project.
 - Don't commit. Leave the new files for the user to review.
