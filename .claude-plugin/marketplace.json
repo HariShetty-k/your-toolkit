@@ -4,13 +4,13 @@
     "name": "HariShetty-k"
   },
   "metadata": {
-    "description": "Skills for setting up a new project's product docs, design system, animation, and UI components."
+    "description": "Set up new repos with product, architecture and design docs, plus animation and UI component skills."
   },
   "plugins": [
     {
       "name": "your-toolkit",
       "source": "./",
-      "description": "Skills for product, design, architecture, user journey, spec, and motion docs."
+      "description": "Agent skills (setup, product, user journey, architecture, spec) and design skills (design system, motion) for starting and documenting projects."
     },
     {
       "name": "21st",

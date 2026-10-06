@@ -1,7 +1,7 @@
 {
   "name": "your-toolkit",
-  "description": "Skills for product, design, architecture, user journey, spec, and motion docs.",
-  "version": "1.3.0",
+  "description": "Agent skills (setup, product, user journey, architecture, spec) and design skills (design system, motion) for starting and documenting projects.",
+  "version": "1.4.0",
   "author": {
     "name": "HariShetty-k"
   },

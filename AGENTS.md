@@ -1,45 +1,36 @@
 # AGENTS.md
 
-Instructions for AI coding agents working in this repository. Keep this file short: commands, conventions, and where to find context.
+Instructions for AI coding agents working on **your-toolkit itself**. The files in
+`templates/project/` are blank starter docs for *other* repos: don't fill them in
+here, and don't treat them as describing this repo.
 
-## Project Docs
+## Layout
 
-Read these before making changes. They are the source of truth.
+| Path | What it is |
+|------|------------|
+| `.claude-plugin/plugin.json` | Plugin name, version, description |
+| `.claude-plugin/marketplace.json` | Marketplace listing: this plugin and the 21st.dev plugin |
+| `skills/<name>/SKILL.md` | One skill per folder, flat (no nesting), with `name` and `description` front matter |
+| `templates/project/` | Starter files the `setup` skill copies into a project |
+| `templates/design-catalog.md` | Brand design systems the `design` skill chooses from |
 
-| File | Read it when |
-|------|--------------|
-| `PRODUCT.md` | Always: what we're building, for whom, and why |
-| `ARCHITECTURE.md` | Always: stack, where code lives, decisions, and rules |
-| `DESIGN.md` | Before any UI work: colors, type, spacing, components |
-| `USER-JOURNEY.md` | Before building or changing a user-facing flow |
-| `specs/` | Before working on a feature that has a spec |
+Skills reach templates with paths relative to their own folder, e.g.
+`../../templates/project/PRODUCT.md`. If you move a template, update every skill
+that points to it (`grep -rn '\.\./\.\./' skills/`).
 
-If a change conflicts with one of these docs, stop and ask. Don't silently diverge. If the change is agreed, update the doc in the same change.
+## Making a change
 
-## Commands
+1. Edit the skill or template.
+2. Bump `version` in `.claude-plugin/plugin.json`: minor for a new skill or
+   template, patch for a fix or wording change.
+3. Add an entry at the top of `CHANGELOG.md`.
+4. If a skill was added, renamed or removed, update the skill tables in
+   `README.md` and the skill list in `templates/project/CLAUDE.md`.
+5. Commit to `main`. It's the only branch, and the marketplace installs from it.
 
-<!-- Fill these in once the stack is chosen. -->
+## Writing skills
 
-| Task | Command |
-|------|---------|
-| Install | |
-| Dev server | |
-| Test | |
-| Lint | |
-| Typecheck | |
-| Build | |
-
-## Workflow
-
-1. For anything bigger than a small fix, write a spec first in `specs/` (see `specs/README.md`).
-2. Make the smallest change that meets the spec's acceptance criteria.
-3. Add or update tests for the change.
-4. Run test, lint, and typecheck before saying the work is done.
-5. Tick off the task in the spec's `tasks.md`.
-
-## Conventions
-
-<!-- Add project-specific rules here as they come up, e.g. "use server actions, not API routes". -->
-
-- Follow the rules in `ARCHITECTURE.md`.
-- Never commit secrets. Use environment variables and keep `.env` files out of git.
+- The `description` decides when Claude uses the skill: say what it does and the
+  phrases that should trigger it.
+- Steps are numbered and concrete. Never overwrite a user's existing file without asking.
+- Write "TBD" for unknowns in templates rather than inventing content.
