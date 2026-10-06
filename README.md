@@ -95,7 +95,7 @@ and these from Anthropic's official marketplace. Remove any you don't want.
 
 | Plugin | What it gives you |
 |--------|-------------------|
-| `superpowers` | Brainstorming, planning, test-driven development, systematic debugging, and checking work before calling it done |
+| `superpowers` | Debugging and quality: systematic debugging, test-driven development, and checking work before calling it done. Feature planning goes through the `spec` skill instead |
 | `code-review` | Multi-agent pull request review |
 | `commit-commands` | Commit, push, and open a pull request |
 | `security-guidance` | Warns about risky code as it's written |

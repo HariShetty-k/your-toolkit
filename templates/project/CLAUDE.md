@@ -11,7 +11,8 @@
 
 - UI work: read `DESIGN.md` first. If it doesn't exist, use the `design` skill.
 - User-facing flows: read `USER-JOURNEY.md`.
-- Feature work: read the matching folder in `specs/`, or use the `spec` skill to create one.
+- Feature work: read the matching folder in `specs/`, or use the `spec` skill to create one. Plan features with `spec`, not with `superpowers` brainstorming or planning skills.
+- Bugs, tests and verification: use the `superpowers` debugging, test-driven development and verification skills.
 
 ## Skills
 

@@ -31,7 +31,7 @@ If a change conflicts with one of these docs, stop and ask. Don't silently diver
 
 ## Workflow
 
-1. For anything bigger than a small fix, write a spec first in `specs/` (see `specs/README.md`).
+1. For anything bigger than a small fix, write a spec first in `specs/` (see `specs/README.md`). This is the only planning flow; don't create plans elsewhere.
 2. Make the smallest change that meets the spec's acceptance criteria.
 3. Add or update tests for the change.
 4. Run test, lint, and typecheck before saying the work is done.

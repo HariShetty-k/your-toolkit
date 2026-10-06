@@ -2,6 +2,13 @@
 
 Versions of the `your-toolkit` plugin (`.claude-plugin/plugin.json`).
 
+## 1.4.2 — 2026-10-06
+
+- `superpowers` stays in the starter settings as the debugging and quality
+  plugin. The starter `CLAUDE.md` and `AGENTS.md` now send feature planning to
+  the `spec` skill and debugging, tests and verification to `superpowers`, so
+  the two don't compete.
+
 ## 1.4.1 — 2026-10-06
 
 - Removed the toolkit's own license; the repo is all rights reserved.
